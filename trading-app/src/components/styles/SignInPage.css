@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.paper {
+  padding: 32px;
+  max-width: 600px;
+  min-width: 350px;
+}
+
+.MuiTextField-root {
+  background-color: #121212;
+  margin-bottom: 16px;
+}
+
+.MuiButton-root {
+  padding: 16px 24px;
+}
+
+input:-webkit-autofill,
+.MuiInputBase-root:has(> input:-webkit-autofill) {
+  background-color: green;
+}
